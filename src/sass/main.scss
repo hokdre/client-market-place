@@ -1,0 +1,165 @@
+@import "./abstracts//functions";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+@import "./base/animations";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utilities";
+
+/*
+* UI Components are component that's used for general styling
+*/
+@import "./components/UI_components/slider";
+@import "./components/UI_components/carousel";
+@import "./components/UI_components/alert";
+@import "./components/UI_components/button";
+@import "./components/UI_components/form";
+@import "./components/UI_components/section";
+@import "./components/UI_components/popup";
+
+/*
+* Style Components are component that's used for spesific domain but not connect any server API 
+*/
+@import "./components/style_components/pagination";
+@import "./components/style_components/error_message";
+@import "./components/style_components/card_product";
+@import "./components/style_components/form_search";
+@import "./components/style_components/avatar";
+@import "./components/style_components/form_avatar";
+@import "./components/style_components/form_photos";
+@import "./components/style_components/list_photos";
+@import "./components/style_components/input_categories";
+@import "./components/style_components/input_quantity";
+@import "./components/style_components/filter_category";
+@import "./components/style_components/filter_location";
+@import "./components/style_components/filter_price";
+@import "./components/style_components/dropdown_cart";
+@import "./components/style_components/input_search";
+@import "./components/style_components/input_tags";
+@import "./components/style_components/input_checkbox";
+@import "./components/style_components/item_shippment_receiver";
+@import "./components/style_components/cart_address_chooser";
+@import "./components/style_components/cart_address_chooser_option";
+@import "./components/style_components/popup_cart_add_address";
+@import "./components/style_components/popup_error";
+@import "./components/style_components/receiver";
+@import "./components/style_components/merchant_profile";
+@import "./components/style_components/product_profile";
+@import "./components/style_components/customer_profile";
+@import "./components/style_components/message_success";
+@import "./components/style_components/stars";
+@import "./components/style_components/review";
+
+// cart
+@import "./components/style_components/cart_check_all";
+@import "./components/style_components/cart_merchant_check";
+@import "./components/style_components/cart_product";
+@import "./components/style_components/cart_product_check";
+@import "./components/style_components/cart_note_quantity_del";
+@import "./components/style_components/cart_summary";
+@import "./components/style_components/cart_shippment_summary";
+
+//order
+@import "./components/style_components/order_dropdown_product";
+@import "./components/style_components/filter_status_order";
+@import "./components/style_components/status_order";
+
+//transaction 
+@import "./components/style_components/filter_status_transaction";
+@import "./components/style_components/transfer_photo";
+@import "./components/style_components/reject_payment_reason";
+
+/*
+* Logic Components are component that's used for spesific fields of domain that's must connect any server API. ex : autocompletition
+*/
+@import "./components/logic_components/auto_city";
+@import "./components/logic_components/shippment_chooser";
+
+/*
+* Layout are component that build basic layout like header, navbar, etc
+*/
+@import "./layout/menubar";
+@import "./layout/grid.scss";
+@import "./layout/navbar";
+@import "./layout/sidebar";
+@import "./layout/profile";
+@import "./layout/layout_admin";
+@import "./layout/layout_customer";
+@import "./layout/layout_merchant";
+
+/*
+* Features are component that's representative Model that contains any logic for CRUD operation and connect to server API
+*/
+// Admin domain
+@import "./features/admin/list_admin";
+@import "./features/admin/search_admin";
+
+// Customer domain
+@import "./features/customer/list_customer";
+@import "./features/customer/search_customer";
+
+// Address domain
+@import "./features/address/list_address";
+@import "./features/address/update_address";
+
+// Merchant domain
+@import "./features/merchant/list_merchant";
+@import "./features/merchant/search_merchant";
+
+// Bank domain
+@import "./features/bank_account/list_bank";
+
+// Shipping domain
+@import "./features/shipping/list_shipping";
+
+// Product domain
+@import "./features/product/list_merchant_product";
+// @import "./features/product/update_photos";
+@import "./features/product/detil_product";
+
+// Etalase domain
+@import "./features/etalase/add_etalase";
+@import "./features/etalase/list_etalase";
+@import "./features/etalase/manage_etalase";
+
+// Cart domain
+@import "./features/cart/list_item_cart";
+@import "./features/cart/list_item_shippment_cart";
+@import "./features/cart/item_shippment_cart";
+@import "./features/cart/update_item_cart";
+
+// Order domain
+@import "./features/order/estimasi_pendapatan";
+@import "./features/order/add_order";
+@import "./features/order/list_order";
+@import "./features/order/details_order";
+@import "./features/order/add_resi";
+@import "./features/order/shipping_order_info";
+@import "./features/order/month_summary";
+@import "./features/order/finish_order";
+
+// Transaction Buyer domain
+@import "./features/transaction_buyer/list_transaction";
+@import "./features/transaction_buyer/upload_transfer";
+@import "./features/transaction_buyer/verifikasi_transaction";
+
+//review merchant
+@import "./features/review_merchant/add_review_merchant";
+@import "./features/review_merchant/list_review_merchant";
+
+//review product 
+@import "./features/review_product/list_review_product";
+
+// Search domain
+@import "./features/search/search";
+
+
+/*
+* Pages
+*/
+@import "./pages/login_page";
+@import "./pages/new_admin_page";
+@import "./pages/detail_admin";
+@import "./pages/landing_page";
+@import "./pages/search_filter_product";

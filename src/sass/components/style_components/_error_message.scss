@@ -1,0 +1,23 @@
+.error-message {
+    padding: 2rem;
+    text-align: center;
+
+    &__icon-row {
+       color: $color-red-primary;
+       padding: 2rem;
+    }
+
+    &__message-row {
+        padding: 1rem;
+        flex: 1;
+    }
+
+    &__icon {
+        font-size: 10rem;
+    }
+
+    &__message {
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+}

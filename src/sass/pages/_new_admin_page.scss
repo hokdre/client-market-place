@@ -1,0 +1,19 @@
+.form-admin {
+    width: 100%;
+
+    & .col {
+        padding : 1rem 2rem;
+    }
+
+    &__part {
+        padding : 4rem 2rem;
+        margin-bottom: 1rem;
+        background-color: $color-white-standar;
+        border: 0.1rem solid $color-white-soft;
+    }
+
+    &__title {
+        display: inline-block;
+        padding-bottom: 0.5rem;
+    }
+}

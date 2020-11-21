@@ -1,0 +1,19 @@
+.status-order {
+    font-weight: 800;    
+
+    &__STATUS_ORDER_SEDANG_DIPROSES {
+        color: $color-blue-primary;
+    }
+
+    &__STATUS_ORDER_SEDANG_DIKIRIM {
+        color : $color-orange-primary;
+    }
+
+    &__STATUS_ORDER_SELESAI {
+        color : $color-success-primary;
+    }
+
+    &__STATUS_ORDER_DI_CANCEL {
+        color : $color-red-primary;
+    }
+}

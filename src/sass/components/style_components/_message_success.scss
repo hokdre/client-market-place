@@ -1,0 +1,34 @@
+.message-success {
+    text-align: center;
+    &__icon-row{
+       display: flex;
+       align-items: stretch;
+       justify-content: center;
+    }
+
+    &__icon {
+        font-size: 10rem;
+        padding: 2rem;
+        color : $color-success-primary;
+    }
+
+    &__text {
+        
+    }
+    &__big-message {
+        font-size: 2rem;
+        font-weight: 800;
+        color: $color-black-heading;
+        
+    }
+    &__small-message {
+        font-size: 1.4rem;
+        padding: 1rem;
+        
+    }
+
+    &__button {
+        
+    }
+
+}

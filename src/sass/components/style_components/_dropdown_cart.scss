@@ -1,0 +1,113 @@
+.dropdown-cart {
+    position: relative;
+
+    &:hover  &__data {
+        z-index: 1;
+        opacity: 1;
+    }
+
+    &__data {
+        position: absolute;
+        transform: translateX(-50%);
+        margin-top: 0.3rem;
+        z-index: -1;
+        opacity: 0;
+        background-color: $color-white-standar;
+        width: 40rem;
+        padding: 1rem;
+        border : 1px solid $color-white-soft;
+        border-radius: 9px;
+        @include box-shadow-1;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 1rem 1rem 1rem;
+        border-bottom: 1px solid $color-black-soft;
+    }
+    &__header-title {
+        font-size: 1.6rem;
+        font-weight: 800;
+        color: $color-black-heading;
+    }
+
+    &__empty {
+      text-align: center;
+    }
+    &__empty-data {
+        display: flex;
+        padding: 2rem 4rem;
+    }
+    &__empty-icon {
+        color: $color-success-primary;
+        font-size: 4rem;
+    }
+    &__empty-message {
+       flex: 1;
+       padding: 1rem;
+       font-size: 1.6rem;
+       color: $color-black-heading;
+    }
+
+    &__button {
+        
+    }
+
+    &__items {
+       
+    }
+
+    &__item {
+        list-style-type: none;
+        padding: 0.5rem 0rem;
+        &:hover {
+            background-color: $color-white-soft;
+        }
+    }
+
+    &__product {
+        display: flex;
+        align-items: center;
+    }
+
+    &__photo-col {
+        width: 5rem;
+        height: 5rem;
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__data-col {
+        flex: 1;
+        padding: 0rem 1rem;
+    }
+
+    &__price-col {
+
+    }
+
+    &__product-name {
+        margin-bottom: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__product-quantity {
+        color: $color-black-soft;
+        font-size: 1.2rem;
+    }
+
+    &__product-price {
+        font-weight: 800;
+        color: $color-orange-primary;
+    }
+
+}

@@ -1,0 +1,55 @@
+.item-shippment-receiver {
+    font-size: 1.2rem;
+
+    &__title {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+
+    &__data {
+        padding: 1rem 0rem;
+        // border-top: 1px solid $color-white-soft;
+        // border-bottom: 1px solid $color-white-soft;
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__name {
+        color: $color-black-strong;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    &__button {
+        padding: 0rem 1rem;
+        background-color: $color-black-heading;
+        color: $color-white-standar;
+        font-weight: 800;
+        border-radius: 9px;
+
+        &:hover {
+            cursor: pointer;
+            color: $color-black-strong;
+            background-color: $color-white-soft;
+        }
+    }
+
+    &__phone {
+        color: $color-black-heading;
+    }
+
+    &__street {
+       
+    }
+
+    &__city {
+        color: $color-black-strong;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}

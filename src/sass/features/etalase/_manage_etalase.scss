@@ -1,0 +1,30 @@
+.manage-etalase {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+
+    &__label {
+        display: flex;
+        align-items: center;
+    }
+
+    &__options {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__list {
+        flex:1;
+        padding : 0 1rem;
+        & .form__control {
+            margin: 0;
+        }
+    }
+    &__buttons {
+
+    }
+}

@@ -1,0 +1,52 @@
+.list-transaction {
+    font-size: 1.4rem;
+    
+    &__row {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0rem;
+        border-bottom: 1px solid $color-white-soft;
+    }
+
+    &__title {
+        text-align: left;
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+
+    &__date-col {
+        width: 10rem;
+    }
+
+    &__nomor-col {
+        flex: 1;
+        padding: 0rem 1rem;
+    }
+
+    &__total-col {
+       flex: 1;
+       padding: 0rem 1rem;
+    }
+
+    &__status-col {
+        width: 30rem;
+        padding: 0rem 1rem;  
+        font-weight: 800;      
+    }
+
+    &__action-col {
+        width: 15rem;
+    }
+    &__PEMBAYARAN_MENUNGGU_VERIFIKASI {
+        color: $color-blue-primary;
+    }
+    &__PEMBAYARAN_SEDANG_DIVERIFIKASI {
+        color : $color-orange-primary;
+    }
+    &__PEMBAYARAN_SUCCESS {
+        color : $color-success-primary;
+    }
+    &__PEMBAYARAN_GAGAL {
+        color : $color-red-primary;
+    }
+}

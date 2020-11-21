@@ -1,0 +1,10 @@
+.stars {
+    &--selected {
+        color : $color-orange-primary;
+    }
+
+    &__star {
+        list-style-type: none;
+        color : $color-black-soft;
+    }
+}

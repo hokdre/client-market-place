@@ -1,0 +1,54 @@
+.estimasi-pendapatan {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: $color-white-standar;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color : $color-black-heading;
+        padding: 1rem;
+    }
+
+    &__year {
+        
+    }
+
+    &__month {
+        position: relative;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20rem;
+        color : $color-orange-primary;
+        padding : 0.5rem;
+        border-radius: 9px;
+        border: 1px solid $color-orange-primary;
+       
+
+        &:hover {
+            cursor: pointer;
+            color : $color-black-soft;
+            border: 1px solid $color-black-soft;
+        }
+    }
+
+    &__month-options {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        background-color: $color-black-heading;
+    }
+
+    &__month-option {
+        padding: 1rem;
+        &:hover {
+            color : $color-orange-primary;
+            cursor: pointer;
+        }
+    }
+}

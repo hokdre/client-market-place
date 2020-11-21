@@ -1,0 +1,16 @@
+.search-admin {
+    &__row {
+        display: flex;
+        align-items: center;
+    }
+    &__filter {
+        width: 30rem;
+
+        & .form__control {
+            margin-bottom: 0;
+        }
+    }
+    &__search {
+        width: 30rem;
+    }
+}

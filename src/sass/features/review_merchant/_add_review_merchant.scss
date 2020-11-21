@@ -1,0 +1,51 @@
+.add-review-merchant {
+   text-align: center;
+
+   & h2 {
+       border-bottom: 3px solid $color-black-heading;
+   }
+
+    &__merchant-row {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        padding : 1rem 0rem;
+    }
+
+    &__stars-row {
+        text-align: center;
+    }
+
+    &__stars-error {
+        height: 1.5rem;
+        color : $color-red-primary;
+    }
+
+    &__stars {
+        font-size: 2rem;
+        padding :0.5rem 0rem;
+        color : $color-white-soft;
+        display: inline-block;
+
+        &--selected {
+            color: $color-orange-primary;
+        }
+
+        &:hover i {
+            color: $color-orange-primary;
+            cursor: pointer;
+
+            &:hover ~ i {
+                color: $color-white-soft;
+            }
+        }
+
+        
+    }
+
+    &__comment {
+        & .form__control .form__input {
+            width: 100%;
+        }
+    }
+}

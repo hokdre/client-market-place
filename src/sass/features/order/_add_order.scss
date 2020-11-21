@@ -1,0 +1,61 @@
+.add-order{
+    padding: 2rem;
+
+    &__scroll {
+        height: 100%;
+        max-height: 25rem;
+        overflow-y: scroll;
+    }
+
+    &__title,  &__suggestion {
+        font-size: 1.4rem;
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+    }
+
+    &__item {
+        display: flex;
+        border : 1px solid $color-white-soft;
+        margin : 1rem 0rem;
+    }
+
+    &__item-merchant-product-col {
+        padding: 1rem;
+        width: 50%;
+        border-right: 1px solid $color-white-soft;
+        position: relative;
+    }
+
+    &__item-receiver-shippment-col {
+        width: 50%;
+        padding: 1rem;
+    }
+
+    &__merchant {
+
+    }
+
+    &__product {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left:0;
+    }
+
+    &__receiver {
+
+    }
+
+    &__shippment {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0.5rem;
+    }
+
+    &__courier {
+        color: $color-orange-primary;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}

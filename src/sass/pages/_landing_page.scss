@@ -1,0 +1,23 @@
+.section-carousel {
+    height: 60vh;
+    margin: 2rem 0rem;
+}
+
+.section-terlaris {
+    background-color: $color-white-standar;
+    //border: 1px solid $color-white-soft;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+
+    & h2 {
+        margin-bottom: 2rem;
+    }
+    & .product-row {
+        display: flex;
+    }
+
+    & .product-card {
+        flex: 0.2;
+    }
+}

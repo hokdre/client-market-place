@@ -1,0 +1,102 @@
+.details-order {
+    border : 1px solid $color-white-soft;
+    padding: 2rem;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__user-row {
+        padding: 0.5rem 0rem;
+        border-bottom: 1px solid $color-white-soft;
+        padding-bottom: 2rem;
+    }
+
+    &__product-row {
+        padding: 2rem 0rem;
+        border-bottom: 1px solid $color-white-soft;
+
+    }
+    &__product-box {
+        //border : 1px solid $color-white-soft;
+        border-radius: 9px;
+        padding : 1rem;
+        // @include box-shadow-1;
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    &__order-detail {
+        padding: 1rem 0rem;
+        width: 50%;
+    }
+    
+    &__note-row {
+        width: 50%;
+        padding: 0.5rem 0rem;
+        font-size: 1.4rem;
+        border-bottom: 1px solid $color-white-soft;
+    }
+
+    &__shipping-row {
+        padding: 2rem 0rem;
+        border-bottom: 1px solid $color-white-soft;
+    }
+
+    &__sub-total-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__sub-total {
+        font-weight: 800;
+        color : $color-orange-primary;
+        font-size: 1.6rem;
+    }
+
+    &__total-row {
+        // padding: 1rem 0rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__total {
+        font-weight: 800;
+        color : $color-orange-primary;
+        font-size: 2rem;
+    }
+
+    &__shipping-info-row {
+        padding: 2rem 0rem;
+        border-bottom: 1px solid $color-white-soft;
+    }
+
+    &__title {
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+    &__title-heading {
+        margin: 0;
+    }
+
+    &__value {
+        font-size: 1.4rem;
+    }
+
+    &__shipping-provider {
+        font-weight: 800;
+        font-size: 1.2rem;
+        color: $color-blue-primary;
+    }
+
+    &__shipping-info {
+        margin-top: 2rem;
+    }
+}

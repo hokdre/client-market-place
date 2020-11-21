@@ -1,0 +1,44 @@
+
+.carousel-root {
+    height: 100%;
+
+    .carousel-slider {
+        height: 100%;
+
+        .control-arrow:before{
+            content: "";
+            border-width: 1.2rem;
+        }
+
+        .control-arrow:hover {
+            background-color: transparent;
+        }
+
+        .control-next {
+            &.control-arrow:before{
+                border-left: 1.5rem solid $color-white-soft;
+            } 
+        }
+
+        .control-prev {
+            &.control-arrow:before{
+                border-right: 1.5rem solid $color-white-soft;
+            } 
+        }
+        
+    }
+
+    .carousel__item {
+        height: 100%;
+        width: 100%;
+    }
+
+    .carousel__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
+

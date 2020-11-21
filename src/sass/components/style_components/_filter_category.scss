@@ -1,0 +1,43 @@
+.filter-category {
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: capitalize;
+        margin-bottom: 0.3rem;
+        padding: 1rem;
+
+        color: $color-black-soft;
+        font-size: 1.4rem;
+
+        &--selected {
+            color : $color-black-mid;
+            font-weight: 800;
+        }
+
+        &:hover {
+            background-color: $color-white-soft;
+        }
+
+    }
+
+    &__icon {
+        font-size: 1.8rem;
+    }
+
+    &__item {
+        position: relative;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &--second {
+            padding-left: 1rem;
+        }
+
+        &--third {
+            padding-left: 2rem;
+        }
+    }
+}

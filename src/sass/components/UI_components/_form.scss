@@ -1,0 +1,124 @@
+input {
+    vertical-align: middle;
+    min-height: 1.5em;
+    box-sizing: content-box;
+}
+input:focus {
+    outline: none;
+}
+input:active {
+    outline: none;
+}
+
+.form {
+    &__control {
+        padding: 0rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &__label {
+        color: $color-black-mid;
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+
+    &__input {
+        display: block;
+        width: calc(100% - 2rem);
+        padding: 1.5rem 1rem;
+        border: 0;
+        border-bottom: 0.1rem solid $color-black-heading;
+        background-color: $color-white-strong;
+
+        &--invalid {
+            border-bottom: 0.1rem solid $color-red-primary;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &--select {
+            border: 0;
+            & option {
+                width: 100%;
+            }
+        }
+
+        &--file {
+            position: relative;
+            top : 0;
+            left: 0;
+
+            & input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+            }
+
+            & .content {
+                display: flex;
+                width: 25rem;
+                cursor: pointer;
+                &:hover {
+                    @include box-hover-white;
+                }
+
+                &::before {
+                    width: 18rem;
+                    font-size: 1.6rem;
+                    border : 1px solid $color-white-soft;
+                    border-radius : 6px 0 0 6px;
+                    padding: 0.5rem;
+                    content: "Choose file...";
+                }
+                &::after{
+                    font-size: 1.6rem;
+                    border : 1px solid $color-white-soft;
+                    width: 7rem;
+                    border-radius : 0 6px 6px 0;
+                    padding: 0.5rem;
+                    background-color: $color-black-soft;
+                    content: "Browse";
+                    color: $color-white-standar;
+                }
+            }
+        }
+    }
+    
+   
+
+    &__error {
+        height: 1.5rem;
+        color : $color-red-primary;
+    }
+
+    &__radio {
+        display: inline-block;
+        padding: 1.5rem 1rem;
+        font-size: 12px;
+        border-bottom: 1px solid transparent;
+    }
+
+    &__buttons {
+        display: flex;
+        margin: 2rem;
+
+        &--right {
+            justify-content: flex-end;
+        }
+        &--beetween {
+            justify-content: space-between;
+
+        }
+        &--left {
+            justify-content: flex-start;
+        }
+
+        &--center {
+            justify-content: center;
+        }
+    }
+
+}

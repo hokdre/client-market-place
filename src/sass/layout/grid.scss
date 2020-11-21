@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-1-of-4 {
+    flex : 0.25;
+}
+
+.col-2-of-4 {
+    flex: 0.5;
+}
+
+.col-3-of-4 {
+    flex: 0.75;
+}
+
+.col-4-of-4 {
+    flex : 1;
+}

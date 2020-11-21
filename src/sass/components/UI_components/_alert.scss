@@ -1,0 +1,31 @@
+.alert {
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    &__icon {
+        padding: 0rem 1rem;
+    }
+    
+    &--success {
+        background-color: $color-success-secondary;
+        color: $color-success-primary;
+    }
+
+    &--error {
+        background-color: $color-error-primary;
+        color : $color-white-standar;
+    }
+
+    &__close {
+        color: $color-white-standar;
+        cursor: pointer;
+
+        &:hover{
+            color: $color-white-strong;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+/**
+font : Playfair 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800&display=swap');
+/**
+font : Robboto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-black-standar;
+}
+
+.heading-primary {
+    color :$color-black-heading;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 4rem;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.heading-secondary {
+    color : $color-black-heading;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    letter-spacing: .2rem;
+    margin-bottom: 1.5rem;
+}
+
+.heading-tertiary {
+    color : $color-black-heading;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
+
+.bold {
+    color: $color-black-strong;
+    font-weight: 900;
+}
+
+.strong {
+    color: $color-black-mid;
+    font-weight: 700;
+}

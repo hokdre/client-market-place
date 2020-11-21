@@ -1,0 +1,19 @@
+.dashboard-profile {
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 0.1rem solid $color-white-soft;
+    background-color: $color-white-standar;
+    
+    &__avatar {
+        height: 15rem;
+        & img {
+            height: 100%;
+            border-radius: 50%;
+        }
+        margin-bottom: 1rem;
+    }
+
+    &__name {
+        margin-bottom: 0;
+    }
+}

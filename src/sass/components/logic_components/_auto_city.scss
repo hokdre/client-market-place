@@ -1,0 +1,24 @@
+.auto-city {
+    position: relative;
+
+    &__options {
+        position: absolute;
+        background-color: white;
+        width: calc(100% - 1rem);
+        top : 95%;
+        left : 0;
+        border : 1px solid $color-white-soft;
+        font-size: 1.6rem;
+        z-index: 1;
+    }
+
+    &__option {
+        list-style-type: none;
+        padding: 1rem;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $color-white-soft;
+        }
+    }
+}

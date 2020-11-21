@@ -1,0 +1,31 @@
+.input-search {
+    display: flex;
+
+    &__input {
+        background-color: $color-white-soft;
+        border: 0;
+        flex : 1;
+        border : 0.1px solid $color-white-soft;
+        border-radius: 6px 0 0 6px;
+        display: block;
+        height: 100%;
+        padding: 1rem;
+    }
+
+    &__icon {
+        display: inline-block;
+        height: 100%;
+        cursor: pointer;
+        color : $color-white-standar;
+        background-color: $color-black-strong;
+        padding: 0rem 1rem;
+        width: 5rem;
+        border-radius: 0 6px 6px 0;
+        &:hover {
+            color : $color-white-soft;
+        }
+        padding: 1rem;
+    }
+
+
+}

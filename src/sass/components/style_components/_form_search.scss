@@ -1,0 +1,25 @@
+.form-search {
+    width: 100%;
+    display: flex;
+    background-color: $color-white-standar;
+    padding: 0 .5rem;
+    border-radius: 0.5rem;
+    align-items: center;
+
+    &__icon {    
+        color: $color-black-standar;
+        margin-right: .5rem;
+        padding: 1rem;
+    }
+
+    &__text {
+        border-radius: 0 0 .5rem .5rem;
+        padding: 1rem;
+        flex: 1;
+        border: none;
+
+        &:focus {
+           outline: none;
+        }
+    }
+}

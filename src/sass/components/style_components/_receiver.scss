@@ -1,0 +1,23 @@
+.receiver {
+    &__name {
+        color: $color-black-strong;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    &__phone {
+        color: $color-black-heading;
+    }
+
+    &__street {
+       
+    }
+
+    &__city {
+        color: $color-black-strong;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+}

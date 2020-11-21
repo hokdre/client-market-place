@@ -1,0 +1,50 @@
+.merchant-product {
+    &__header {
+        display: flex;
+    }
+
+    &__products {
+        margin-bottom: 1rem;
+    }
+
+    &__title {
+        font-weight: 800;
+        color : $color-black-standar;
+        font-size: 1.6rem;
+    }
+
+    &__item {
+        list-style-type: none;
+        display: flex;
+        padding: 1rem 2rem;
+        border-bottom: 1px solid $color-white-soft;
+        font-size: 1.4rem;
+    }
+
+    &__info {
+        display: flex;
+        flex: 1;
+    }
+
+    &__avatar {
+        width: 7rem;
+        height: 7rem;
+        margin-right: 1rem;
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__price, &__stock {
+        display: inline-block;
+        width: 15rem;
+        padding: 0rem 2rem;
+    }
+
+    &__action {
+        display: inline-block;
+        width: 26rem;
+        padding: 0rem 2rem;
+    }
+}

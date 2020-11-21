@@ -1,0 +1,23 @@
+.popup-error {
+    padding: 2rem;
+
+    &__flex {
+        display: flex;
+        align-items: center;
+        padding: 1rem 0rem;
+    }
+    &__icon {
+        font-size: 7rem;
+        color : $color-error-primary;
+        padding: 0rem 1rem;
+    }
+    &__message {
+        font-size: 2rem;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,23 @@
+.upload-transfer {
+    &__img {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0rem;
+        & img {
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+
+    &__input{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__button{
+        display: flex;
+        justify-content: flex-end;
+        padding: 2rem;
+    }
+}

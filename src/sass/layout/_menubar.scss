@@ -1,0 +1,101 @@
+.menubar {
+    background-color: $color-black-strong;
+    color : $color-white-standar;
+    padding: 0rem 4rem;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+
+    &__list {
+        color: $color-white-standar;
+        display: flex;
+    }
+
+    &__navigation {
+        margin-left: auto;
+        display: flex;
+    }
+
+    &__item {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        &:hover {
+            color : $color-black-soft;
+        }
+
+        &--active {
+            color : $color-blue-primary;
+            border-bottom: 2px solid $color-blue-primary;
+            &:hover{
+                color : $color-blue-primary;
+            }
+        }
+
+        &--notif {
+            padding : 1rem 0.5rem;
+        }
+        &--cart {
+            padding: 1rem 0;
+        }
+    }
+
+    &__icon {
+       
+        margin-right: 1rem;
+    }
+}
+
+.menubar-profile {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    
+    &__merchant {
+        color :$color-white-standar;
+        height : 3rem;
+        display: flex;
+        align-items: center;
+        border-left: 1px solid $color-white-standar;
+        padding: 1rem;
+        &:hover {
+            color : $color-black-soft;
+        }
+        
+    }
+
+    &__user {
+        height : 3rem;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid $color-white-standar;
+        padding: 1rem;  
+    }
+
+    &__avatar {
+        height : 3rem;
+        margin-right: 1rem;
+      
+        & img {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+        }
+        &:hover {
+            color : $color-black-soft;
+        }
+    }
+
+    &__logout {
+        display: block;
+        padding-left: 1rem;
+        //border-left: 1px solid $color-white-standar;
+        &:hover {
+            color : $color-black-soft;
+        }
+    }
+}

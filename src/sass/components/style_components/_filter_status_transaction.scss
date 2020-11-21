@@ -1,0 +1,22 @@
+.filter-status-transaction {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 2rem;
+    
+    &__item {
+        background-color: $color-white-soft;
+        padding: 1rem;
+        border: 1px solid $color-white-soft;
+        border-radius: 9px;
+        margin-right: 1rem;
+        &:hover {
+            background-color: $color-white-soft;
+            cursor: pointer;
+        }
+
+        &--selected {
+            font-weight: 800;
+            border: 1px solid $color-black-soft;
+        }
+    }
+}

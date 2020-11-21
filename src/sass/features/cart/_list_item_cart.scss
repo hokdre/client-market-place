@@ -1,0 +1,26 @@
+.list-cart {
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    padding: 2rem 0rem;
+    
+    // layout
+    &__data-col {
+        flex: 1;
+        padding: 1rem 2rem;
+    }
+    &__summary-col {
+        width: 35rem;
+        padding: 1rem 2rem;
+    }
+
+    //global component
+    &__check {
+
+    }
+
+    //box for product and merchant data
+    &__items {
+        padding: 2rem 0rem;
+    }
+}

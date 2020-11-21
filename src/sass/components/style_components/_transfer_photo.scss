@@ -1,0 +1,35 @@
+.transfer-photo {
+    display: flex;
+
+    &__button-lihat {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: $color-black-heading;
+
+        &:hover {
+            cursor: pointer;
+            color : $color-black-soft;
+        }
+    }
+
+    &__no-photo {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: $color-black-heading;
+    }
+
+    &__popup-struk {
+        padding: 1rem;
+
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center;
+
+        & img {
+            width: 20rem;
+            height: 20rem;
+        }
+    }
+}

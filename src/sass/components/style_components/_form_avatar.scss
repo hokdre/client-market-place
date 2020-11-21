@@ -1,0 +1,19 @@
+.form-avatar {
+    padding : 2rem;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__preview {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    &__input-row {
+        text-align: center;
+        padding: 1rem 0rem;
+    }
+}

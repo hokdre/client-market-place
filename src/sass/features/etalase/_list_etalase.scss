@@ -1,0 +1,46 @@
+.etalase-list {
+    position: relative;
+    flex: 1;
+    
+    &__box {
+        display: flex;
+        cursor: pointer;
+        height: 100%;
+        border: 1px solid $color-black-standar;
+        align-items: center;
+        font-size: 1.2rem;
+        padding: 1rem 1rem;
+        border-radius: 0.6rem;
+    }
+
+    &__name {
+        flex: 1;
+    }
+
+    &__options {
+        background-color: $color-white-standar;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        flex: 1;
+        border : 1px solid $color-white-soft;
+        z-index: 1;
+    }
+
+    &__option {
+        padding: 1rem;
+        font-size: 1.2rem;
+        &:not(:last-child){
+            border-bottom: 1px solid $color-white-soft;
+        }
+        
+        &:hover{
+            background-color: $color-white-soft;
+            cursor: pointer;
+        }
+        &--selected {
+            background-color: $color-white-soft;
+            border-left: 3px solid $color-black-strong;
+        }
+    }
+}

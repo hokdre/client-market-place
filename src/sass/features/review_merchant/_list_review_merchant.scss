@@ -1,0 +1,15 @@
+.list-review-merchant {
+    &__items {
+        padding: 1rem 0rem;
+    }
+
+    &__item {
+        list-style-type: none;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1rem 0rem;
+    }
+}

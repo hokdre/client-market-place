@@ -1,0 +1,51 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 1.6rem;
+
+    &__page {
+        cursor: pointer;
+        list-style-type: none;
+        padding : 0.5rem;
+        margin : 2rem 1rem 1rem 1rem;
+        &:hover {
+            color : $color-black-soft;
+        }
+
+        &--disabled {
+            cursor: not-allowed;
+            color: $color-black-soft;
+        }
+
+        &--selected {
+            color: $color-blue-primary;
+            font-weight: 800;
+           border-bottom:1px solid $color-blue-primary;
+        }
+    }
+
+    &__back {
+        padding : 0.5rem;
+        margin : 2rem 1rem 1rem 1rem;
+        list-style-type: none;
+        cursor: pointer;
+
+        &--disable {
+            cursor: not-allowed;
+            color: $color-black-soft;
+        }
+    }
+
+    &__next {
+        padding : 0.5rem;
+        margin : 2rem 1rem 1rem 1rem;
+        list-style-type: none;
+        cursor: pointer;
+        
+        &--disable {
+            cursor: not-allowed;
+            color: $color-black-soft;
+        }
+    }
+}

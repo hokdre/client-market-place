@@ -1,0 +1,14 @@
+.avatar {
+    padding: 3rem 1rem;
+    text-align: center;
+    
+    &__pic-wrapper {
+        height: 25rem;
+        & img {
+            height: 100%;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        margin-bottom: 1rem;
+    }
+}

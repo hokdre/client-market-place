@@ -1,0 +1,169 @@
+.detil-product {
+    padding: 4rem 0rem;
+    width: 1220px;
+    margin: auto;
+    background-color: $color-white-standar;
+    /*
+    * Emphasis name and price
+    */
+    &__name {
+        font-size: 1.75rem;
+        font-weight: 800;
+    }
+
+    &__price {
+        font-size: 2.4rem;
+        font-weight: 800;
+        color: $color-orange-primary;
+    }
+
+    &__etalase {
+        font-size: 1.4rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    &__display {
+        padding: 0rem 1rem;
+        width: 446px;
+        height: 446px;
+        margin: 0 auto;
+
+        & img {
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__images {
+        width: 446px;
+        display: flex;
+        padding: 1rem 1rem;
+        margin: 0 auto;
+    }
+
+    &__image {
+        list-style-type: none;
+        width: 20%;
+        padding: 0.5rem;
+        height: 10rem;
+    }
+
+    &__img {
+        border-radius: 9px;
+        max-width: 100%;
+        height: 100%;
+
+        &--selected {
+            scale: 0.2;
+        }
+
+        &:hover {
+            cursor: pointer;
+            @include box-shadow-2;
+        }
+    }
+
+    &__informations {
+
+    }
+
+    &__information {
+        list-style-type: none;
+        padding: 1.5rem 1rem;
+        border-bottom: 1px solid $color-white-soft;
+        display: flex;
+    }
+    
+    &__title-col {
+      width: 10rem;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        color : $color-black-soft;
+        font-weight: 800;
+    }
+
+    &__description-col {
+        flex : 1;
+    }
+
+    &__demensions{
+        display: flex;
+    }
+
+    &__demension {
+        text-align-last: center;
+        list-style-type: none;
+        padding: 0rem 1.5rem;
+    }
+
+    &__demension-title {
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        color : $color-black-soft;
+    }
+
+    &__demension-value {
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+
+    &__options {
+        display: flex;
+    }
+
+    &__option {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: 800;
+        text-align: center;
+        width: 10rem;
+        list-style-type: none;
+        border : 1px solid $color-black-soft;
+        border-radius: 4px;
+        margin-right: 1rem;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+        &--selected {
+            color: $color-orange-primary;
+            border : 1px solid $color-orange-primary;
+        }
+    }
+
+    &__note {
+        padding: 2rem;
+    }
+
+    &__merchant {
+        display: flex;
+    }
+
+    &__merchant-photo {
+        width: 5rem;
+        margin-right: 1rem;
+
+        & img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    &__merchant-data {
+        flex: 1;
+    }
+
+    &__merchant-name {
+        margin: 0;
+    }
+
+    &__merchant-city {
+
+    }
+}

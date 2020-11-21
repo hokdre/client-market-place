@@ -1,0 +1,35 @@
+.sidebar {
+    color: $color-white-soft;
+    font-size: 1.5rem;
+    text-align: center;
+
+    &__list {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    &__item {
+        padding:1.5rem 1rem;
+        border-bottom: 0.1rem solid $color-black-standar;
+    }
+
+    &__item:hover{
+        background-color: $color-black-mid;
+    }
+
+    &__item:hover &__link{
+       color: $color-white-strong;
+    }
+
+    &__link {
+        color: $color-white-soft;
+        text-decoration: none;
+
+    }
+
+    &__icon {
+        margin-right: 1rem;
+    }
+}

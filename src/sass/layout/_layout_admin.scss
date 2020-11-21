@@ -1,0 +1,21 @@
+.layout-admin{
+    &__sidebar {
+        position: fixed;
+        height: 100%;
+        width: 17%;
+        left: 0;
+        z-index: 1;
+        border-right: 0.1rem solid $color-white-soft;
+        background-color: $color-black-strong;
+    }
+
+    &__content {
+       padding : 2rem 4rem;
+    }
+
+    &__main {
+        display: block;
+        width: calc(84% - 0.1px);
+        margin-left: 16%;
+    }
+}

@@ -1,0 +1,28 @@
+.month-summary {
+    display: flex;
+    flex-wrap: wrap;
+    color : $color-white-standar;
+    text-align: center;
+
+    &__report {
+        width: calc((100% - 3rem) / 3);
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background-color: $color-black-heading;
+        @include box-shadow-1;
+        border: 1px solid $color-white-soft;
+        border-radius: 9px;
+        margin:1rem 0.5rem;  
+        
+    }
+
+    &__title {
+        color : $color-white-standar;
+    }
+
+    &__number {
+        color : $color-orange-primary;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+}

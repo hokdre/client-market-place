@@ -1,0 +1,63 @@
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: $color-black-standar;
+    &__price {
+        color : $color-orange-primary;
+    }
+
+    &__title {
+        font-weight: 800;
+        list-style-type: none;
+        color: $color-black-mid;
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+    }
+
+    &__product {
+        display: flex;
+    }
+
+    &__merchant {
+        display: flex;
+    }
+
+    &__img {
+        display: inline-block;
+        height: 5rem;
+
+        & img {
+            height: 100%;
+        }
+    }
+
+    &__description {
+        margin-left: 1rem;
+        & .heading-tertiary{
+            margin: 0;
+        }
+    }
+
+
+    &__options {
+        position: absolute;
+        top: 100%;
+        margin-top: 3px;
+        z-index: 2;
+        width: 80%;
+        background-color: white;
+        border : 1px solid $color-white-soft;
+    }
+
+    &__option {
+        list-style-type: none;
+        padding:0.5rem 3rem;
+
+        &:hover{
+            background-color: $color-white-soft;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.list-order {
+    font-size: 1.4rem;
+    
+    &__row {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0rem;
+        border-bottom: 1px solid $color-white-soft;
+
+        &:first-child {
+            border-top: 1px solid $color-white-soft;
+        }
+    }
+    
+    &__title {
+        text-align: left;
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+
+    &__date-col {
+        width: 10rem;
+    }
+
+    &__merchant-col {
+        flex: 1;
+        padding: 0rem 1rem;
+    }
+
+    &__product-col {
+       flex: 1;
+       padding: 0rem 1rem;
+    }
+
+    &__status-col {
+        flex: 1;
+        padding: 0rem 1rem;     
+    }
+
+    &__action-col {
+        width: 15rem;
+    }
+    
+    &__STATUS_ORDER_MENUNGGU_PEMBAYARAN {
+
+    }
+}

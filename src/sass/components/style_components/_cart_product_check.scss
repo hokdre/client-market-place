@@ -1,0 +1,10 @@
+.cart-product-check {
+    &:not(:last-child) {
+        border-bottom: 1px solid $color-white-soft;
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,27 @@
+.quantity {
+    display: flex;
+    align-items: center;
+    & input {
+        width: 5rem;
+    }
+
+    &__minus {
+        font-size: 1.4rem;
+        padding: 0rem 1rem;
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            color: $color-black-soft;
+        }
+    }
+
+    &__plus {
+        font-size: 1.4rem;
+        padding: 0rem 1rem;
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            color: $color-black-soft;
+        }
+    }
+}

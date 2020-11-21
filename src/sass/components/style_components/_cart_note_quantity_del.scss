@@ -1,0 +1,22 @@
+.cart-note-quantity-del {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+    // margin-left = width checkbox
+    padding-left: 1rem;
+    
+    &__buttons {
+        display: flex;
+        align-items: center;
+    }
+    &__button {
+        font-size: 1.4rem;
+        margin-right: 2rem;
+
+        &:hover {
+            color: $color-black-soft;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.item-shippment-cart {
+    border-bottom: 6px solid $color-white-soft;
+    border-top: 1px solid $color-white-soft;
+    border-right: 1px solid $color-white-soft;
+    border-left: 1px solid $color-white-soft;
+
+    &__merchant-row {
+        border-bottom: 1px solid $color-white-soft;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    &__product-row {
+        display: flex;
+        padding: 1rem;
+        border-bottom: 1px solid $color-white-soft;
+    }
+
+    &__product-col {
+        flex: 1 1;
+    }
+
+    &__shipping-col {
+        flex : 1 1;
+    }
+
+    &__address-row {
+        padding: 1rem; 
+    }
+}

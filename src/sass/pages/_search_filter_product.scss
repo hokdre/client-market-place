@@ -1,0 +1,38 @@
+.filter-product {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    &__sidebar {
+        width: 17%;
+        min-height: 100vh;
+        padding: 0.5rem;
+    }
+
+    &__content {
+        width: 83%;
+        min-height: 100vh;
+        padding: 1rem;
+        background-color: $color-white-standar;
+    }
+
+    &__box {
+        background-color: $color-white-standar;
+        padding : 1rem 1rem;
+        margin-bottom: 0.5rem;
+        border : 1px solid $color-white-soft;
+        @include box-shadow-1;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__col {
+        padding: 0rem 0.5rem 2rem 0.5rem;
+        width: 20%;
+        min-height: 100%;
+    }
+
+}
